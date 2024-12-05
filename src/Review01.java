@@ -4,9 +4,8 @@ public class Review01 {
 	public static void main(String[] args) {
 
 		int yen=1500;
-		double tax=0.1;
-		double result=taxMethod(yen,tax);
-		int zei=(int)result;
+		double percent=0.1;
+		int zei=tax(yen,percent);
 		int sum=yen+zei;
 
 
@@ -15,12 +14,13 @@ public class Review01 {
 
 	}
 
-    public static double taxMethod(int yen,double tax) {
+    public static int tax(int yen,double percent) {
 
 
-    	double result=(double)tax*yen;
+    	double result=(double)percent*yen;
+    	int zei=(int)result;
 
-    	return result;
+    	return zei;
 
 		}
 
