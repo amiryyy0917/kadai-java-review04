@@ -11,17 +11,6 @@ public class Review03 {
 		BaseBallTeam team5=new BaseBallTeam("広島東洋カープ",66,74,3);
 		BaseBallTeam team6=new BaseBallTeam("中日ドラゴンズ",66,75,2);
 
-		
-		
-		team1.getRate();
-		team2.getRate();
-		team3.getRate();
-		team4.getRate();
-		team5.getRate();
-		team6.getRate();
-
-
-
 
 		team1.report();
 		team2.report();
