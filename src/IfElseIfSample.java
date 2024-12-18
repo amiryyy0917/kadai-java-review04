@@ -2,7 +2,8 @@
 public class IfElseIfSample {
 
 	public static void main(String[] args) {
-		int score=100;   //成績
+		int score=100
+				;   //成績
 
 
 		if(score==100) {
