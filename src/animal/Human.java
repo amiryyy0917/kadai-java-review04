@@ -10,17 +10,9 @@ public class Human extends Animal implements Thinkable {
 
 	public Human(String name,int age,String hobby) {
 
-		super.setName(name);
-		super.setAge(age);
+		super(name,age);
 		this.hobby=hobby;
 
-	}
-
-	@Override
-
-	public void say() {
-
-		System.out.println(getName()+"です。"+getAge()+"歳です。");
 	}
 
 
